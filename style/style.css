@@ -31,6 +31,8 @@ main {
 
 section.module p{
     margin-bottom: 40px;
+    word-wrap: break-word; 
+    word-break: break-word; 
 }
 
 section.module:last-child{
@@ -97,5 +99,12 @@ section.module.parallax h1{
     text-transform: uppercase;
 
 }
+
+@media (max-width: 768px) {
+    section.module.parallax p {
+    
+        
+    }
+  }
 
 
