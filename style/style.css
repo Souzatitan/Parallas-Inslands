@@ -6,6 +6,7 @@ body {
     word-wrap: break-word;
     overflow-wrap: break-word;
     width: 100%;
+    outline: 1px solid red; 
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -114,7 +115,7 @@ section.module.parallax h1{
 
   @media (max-width: 450px) {
     body {
-        width: 60vh;
+        width: 100%;
     }
 
     .module p {
