@@ -117,9 +117,13 @@ section.module.parallax h1{
     body {
         width: 100%;
     }
-
+    .container {
+        justify-content: center;
+        align-items: center;
+        display: block;
+    }
     .module p {
-       width: 50vh;
+       width: 40vh;
        text-align: justify;
       
  
